@@ -1,0 +1,19 @@
+{
+	"name": "Go RestAPI with MondoDB Dev Container",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"go.gopath": "/go"
+			},
+			"extensions": [
+				"golang.go",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	"forwardPorts": [8000]
+}
+
